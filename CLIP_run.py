@@ -13,7 +13,7 @@ import re
 parser=argparse.ArgumentParser()
 parser.add_argument('--c',  default='imagenet_classes.txt', help='', type=str,required=True)  
 parser.add_argument('--s', default='ViT-B/32', help='model size', type=str,required=True)  
-parser.add_argument('--i', default='ViT-B/32', help='path to the image file', type=str,required=True)  
+parser.add_argument('--i', default='', help='path to the image file', type=str,required=True)  
 args = parser.parse_args()
 
 
