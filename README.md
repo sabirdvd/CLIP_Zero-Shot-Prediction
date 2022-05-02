@@ -11,4 +11,6 @@ pip install git+https://github.com/openai/CLIP.git
 ```
 
 ```
-python  
+python CLIP_run.py
+
+```
