@@ -10,6 +10,13 @@ pip install ftfy regex tqdm
 pip install git+https://github.com/openai/CLIP.git
 ```
 
+Base model 
 ```
 python CLIP_run.py
+```
+
+Large model 
+``` 
+python CLIP_run_L.py
+
 ```
