@@ -1,6 +1,6 @@
-# CLIP Zero-Shot-Prediction
-
-Zero-Shot Prediction with 1000 imagenet classes
+# CLIP Zero Shot Prediction 
+ 
+Zero-Shot Prediction for 1000 imagenet classes
 
 Download the mode from [openAI](https://github.com/openai/CLIP)
 
