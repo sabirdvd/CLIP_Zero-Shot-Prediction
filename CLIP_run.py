@@ -6,6 +6,14 @@ import torch
 import torchvision.transforms as Transforms
 import clip
 from PIL import Image
+import argparse
+import re
+
+
+parser=argparse.ArgumentParser()
+parser.add_argument('--c',  default='imagenet_classes.txt', help='', type=str,required=True)  
+parser.add_argument('--s', default='ViT-B/32', help='visual_context from ResNet', type=str,required=True)  
+args = parser.parse_args()
 
 
 
@@ -19,14 +27,14 @@ clip_model, clip_preprocess = clip.load('ViT-B/32', device)
 clip_model.eval()
 
 #
-with open("imagenet_classes.txt", "r") as f:
+with open(args.c, "r") as f:
     categories = [s.strip() for s in f.readlines()]
 
 text = clip.tokenize(categories).to(device)
 
 def predict_clip(image_file_path):
     image = clip_preprocess(Image.open(image_file_path)).unsqueeze(0).to(device)
-    clip_model, _ = clip.load('ViT-B/32', device)
+    clip_model, _ = clip.load(args.s, device)
 
     # Calculate features
     with torch.no_grad():
