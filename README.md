@@ -18,5 +18,4 @@ python CLIP_run.py
 Large model 
 ``` 
 python CLIP_run_L.py
-
 ```
