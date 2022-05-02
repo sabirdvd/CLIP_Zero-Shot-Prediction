@@ -27,7 +27,7 @@ print(f"Device - {device}")
 clip_model, clip_preprocess = clip.load('ViT-B/32', device)
 clip_model.eval()
 
-#
+# imagenet_classes
 with open(args.c, "r") as f:
     categories = [s.strip() for s in f.readlines()]
 
