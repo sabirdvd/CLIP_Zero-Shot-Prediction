@@ -1,6 +1,8 @@
 # CLIP Zero Shot Prediction 
  
-Zero-Shot Prediction for 1000 imagenet classes
+Zero-Shot Prediction for 1000 imagenet classes 
+
+For fast start [Colab](https://colab.research.google.com/drive/1bUOngE4T5GoyurxwDslprxfRRrigcX3J?usp=sharing) 
 
 Download the mode from [openAI](https://github.com/openai/CLIP)
 
