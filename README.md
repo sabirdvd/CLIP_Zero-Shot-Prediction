@@ -32,3 +32,9 @@ python CLIP_run.py --c imagenet_classes.txt    --s ViT-L/14 --i  /image/COCO_tra
 python 3.7
 pip install git+https://github.com/rinnakk/japanese-clip.git
 ```
+run 
+
+```
+python CLIP_run.py 
+```
+
