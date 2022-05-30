@@ -27,4 +27,4 @@ Large model # ViT-L/14 (Jan 2022 model)
 python CLIP_run.py --c imagenet_classes.txt    --s ViT-L/14 --i  /image/COCO_train2014_000000010881.jpg
 ```
 
-## # CLIP Zero Shot Prediction (Jap)
+## CLIP Zero Shot Prediction (Jap)
