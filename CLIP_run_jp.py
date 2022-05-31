@@ -1,3 +1,5 @@
+# coder from https://huggingface.co/rinna/japanese-clip-vit-b-16
+
 import io
 import requests
 from PIL import Image
