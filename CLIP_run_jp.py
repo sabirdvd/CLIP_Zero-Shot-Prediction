@@ -1,3 +1,4 @@
+#https://rinna.co.jp/ニュース/f/rinna社、日本語に特化した言語画像モデルclipを公開
 # coder from https://huggingface.co/rinna/japanese-clip-vit-b-16
 
 import io
